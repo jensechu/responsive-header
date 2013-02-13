@@ -9,6 +9,11 @@ h1, h2, h3, h4 { margin: 0px; }
 /* Custom Styles */
 .inset { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: white;!important}
 
+.inner {
+    width: 95%; max-width: 980px;
+    margin-left: auto; margin-right: auto;
+}
+
 /* Header 
 
    header is fixed with an div.inner child to scale navigation contents on resize.
@@ -21,11 +26,6 @@ header {
     padding-top: 10px;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#68aed6), to(#54a3d1));
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-}
-
-header div.inner {
-    width: 95%; max-width: 980px;
-    margin-left: auto; margin-right: auto;
 }
 
 
@@ -98,4 +98,21 @@ div.menu-icons .icon-reorder { display: none; }
     div.menu-icons .icon-large { display: none; }
     div.menu-icons .icon-reorder { display: inline; }
 
+}
+
+/* Content */
+
+section {
+    padding-top: 100px;
+
+}
+
+section h3 {
+    font-size: 150%;
+}
+
+section p {
+    font-family: helvetica;
+    line-height: 25px;
+    font-weight: lighter;
 }
