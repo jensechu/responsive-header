@@ -2,6 +2,12 @@ body {
     margin: 0px;
 }
 
+/* Mini Reset */
+a { text-decoration: none; }
+h1, h2, h3, h4 { margin: 0px; }
+
+/* Custom Styles */
+.inset { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: white;!important}
 
 /* Header 
 
@@ -32,29 +38,41 @@ header h2 {
     font-family: sans-serif;
 }
 
-    /* Navigation 
-       
-       nav is a
+header h2.small-logo { display: none; }
 
-*/
+@media only screen and (max-width: 500px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+/* Swap in the smaller logo. */
+    header h2.big-logo {
+	display: none;
+    }
+
+    header h2.small-logo {
+	display: inline!important;
+    }
+}
+
 nav {
     position: relative; float: left;
 }
 
 nav a {
     color: #ffffff;
-    text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     font-family: helvetica;
     margin-right: 20px;
     line-height: 45px;
+}
+
+@media only screen and (max-width: 500px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+/* Decrease navigation margins. */
+    nav a { margin-right: 5%; }
+
 }
 
 nav a:last-child {
     margin-right: 0px!important;
 }
 
-nav a:hover {
+header a:hover {
     color: #bebebe;
 }
 
@@ -65,5 +83,19 @@ div.menu-icons {
 }
 
 div.menu-icons a {
-    text-decoration: none;
+    margin-right: 10px;
+}
+
+div.menu-icons a:last-child {
+    margin-right: 0px!important;
+}
+
+div.menu-icons .icon-reorder { display: none; }
+
+@media only screen and (max-width: 600px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+/* Swap in the 'reorder' icon to replace the three menu bar icons. */
+    div.menu-icons { width: 50px; }
+    div.menu-icons .icon-large { display: none; }
+    div.menu-icons .icon-reorder { display: inline; }
+
 }
