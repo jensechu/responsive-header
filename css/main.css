@@ -129,7 +129,7 @@ div.feature-column {
     position: relative;
     float: left;
     height: 100px; width: 32%;
-    background-color: red;
+    background-color: rgb(141, 196, 82);
     margin-right: 2%;
 }
 
