@@ -107,13 +107,6 @@ div.menu-icons .icon-reorder { display: none; }
 }
 
 /* Content */
-
-section {
-    padding-top: 100px;
-    margin-bottom: 50px;
-
-}
-
 section h3 {
     font-size: 150%;
 }
@@ -125,6 +118,10 @@ section p {
 }
 
 /* Feature Section */
+#feature {
+    padding-top: 75px;
+}
+
 div.feature {
     height: 600px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
