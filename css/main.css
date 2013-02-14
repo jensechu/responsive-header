@@ -106,13 +106,6 @@ div.menu-icons .icon-reorder { display: none; }
 }
 
 /* Content */
-<<<<<<< HEAD
-section h3 {
-    font-size: 150%;
-}
-
-section p {
-=======
 article {
     margin-bottom: 25px; padding-top: 25px;
 }
@@ -123,7 +116,6 @@ article h3 {
 }
 
 article p {
->>>>>>> master
     font-family: helvetica;
     line-height: 25px;
     font-weight: lighter;
@@ -131,11 +123,7 @@ article p {
 
 /* Feature Section */
 #feature {
-<<<<<<< HEAD
-    padding-top: 75px;
-=======
     padding-top: 70px;
->>>>>>> master
 }
 
 div.feature {
@@ -144,17 +132,6 @@ div.feature {
 }
 
 div.feature-box {
-<<<<<<< HEAD
-    background-color: green;
-    height: 225px; width: 32%;
-    margin-bottom: 225px;
-}
-
-@media only screen and (max-width: 600px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-/* Make the feature box span two of the smaller columns when resized. */
-    div.feature-box {
-	width: 64%;
-=======
     height: 225px; width: 90%;
     max-width: 680px;
     margin-bottom: 225px;
@@ -179,7 +156,6 @@ div.feature-box h1 {
 /* Make the feature box span two of the smaller columns when resized. */
     div.feature-box {
 	width: 84%;
->>>>>>> master
     }
 
 }
@@ -191,11 +167,7 @@ div.feature-column {
     height: 100px; width: 32%;
     background-color: rgb(141, 196, 82);
     margin-right: 2%;
-<<<<<<< HEAD
-    margin-top: 450px; /* Remove for feature-box */
-=======
 /*    margin-top: 450px;  Remove for feature-box */
->>>>>>> master
 }
 
 div.feature-column:last-child {
