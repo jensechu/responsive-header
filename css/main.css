@@ -126,13 +126,28 @@ div.feature {
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
+div.feature-box {
+    background-color: green;
+    height: 225px; width: 32%;
+    margin-bottom: 225px;
+}
+
+@media only screen and (max-width: 600px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+/* Make the feature box span two of the smaller columns when resized. */
+    div.feature-box {
+	width: 64%;
+    }
+
+}
+
+
 div.feature-column {
     position: relative;
     float: left;
     height: 100px; width: 32%;
     background-color: rgb(141, 196, 82);
     margin-right: 2%;
-    margin-top: 450px;
+    margin-top: 450px; /* Remove for feature-box */
 }
 
 div.feature-column:last-child {
@@ -141,5 +156,5 @@ div.feature-column:last-child {
 }
 
 .ninokuni {
-    background: url('../images/ninokuni.jpg') no-repeat center;
+    background: url('../images/ninokuni.jpg') no-repeat center top;
 }
