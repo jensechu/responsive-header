@@ -164,10 +164,24 @@ div.feature-box h1 {
 div.feature-column {
     position: relative;
     float: left;
-    height: 100px; width: 32%;
+    height: 80px; width: 28%;
     background-color: rgb(141, 196, 82);
     margin-right: 2%;
+    padding: 1% 2%;
 /*    margin-top: 450px;  Remove for feature-box */
+}
+
+div.feature-column h4 {
+    font-family: helvetica;
+    color: white;
+}
+div.feature-column h4:first-child {
+    font-variant: small-caps;
+}
+
+div.feature-column h4:nth-child(2) {
+    margin-top: 3%;
+    font-size: 140%;
 }
 
 div.feature-column:last-child {
