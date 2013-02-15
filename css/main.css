@@ -164,8 +164,13 @@ div.feature-box h1 {
 div.feature-column {
     position: relative;
     float: left;
-    height: 80px; width: 28%;
-    background-color: rgb(141, 196, 82);
+    height: 95px; width: 28%;
+    background-image: -moz-linear-gradient(top, #68aed6, #54a3d1);
+    background-image: -ms-linear-gradient(top, #68aed6, #54a3d1);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#68aed6), to(#54a3d1));
+    background-image: -webkit-linear-gradient(top, #68aed6, #54a3d1);
+    background-image: -o-linear-gradient(top, #68aed6, #54a3d1);
+    background-image: linear-gradient(top, #68aed6, #54a3d1);
     margin-right: 2%;
     padding: 1% 2%;
 /*    margin-top: 450px;  Remove for feature-box */
