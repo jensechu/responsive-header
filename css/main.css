@@ -134,7 +134,7 @@ div.feature {
 div.feature-box {
     height: 225px; width: 90%;
     max-width: 680px;
-    margin-bottom: 225px;
+    margin-bottom: 245px;
 }
 
 div.feature-box h1 {
@@ -164,14 +164,14 @@ div.feature-box h1 {
 div.feature-column {
     position: relative;
     float: left;
-    height: 95px; width: 28%;
+    height: 95px; width: 27.3%;
     background-image: -moz-linear-gradient(top, #68aed6, #54a3d1);
     background-image: -ms-linear-gradient(top, #68aed6, #54a3d1);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#68aed6), to(#54a3d1));
     background-image: -webkit-linear-gradient(top, #68aed6, #54a3d1);
     background-image: -o-linear-gradient(top, #68aed6, #54a3d1);
     background-image: linear-gradient(top, #68aed6, #54a3d1);
-    margin-right: 2%;
+    margin: 0% 1%;
     padding: 1% 2%;
 /*    margin-top: 450px;  Remove for feature-box */
 }
@@ -191,7 +191,7 @@ div.feature-column h4:nth-child(2) {
 
 div.feature-column:last-child {
     float: right;
-    margin-right: 0px!important;
+
 }
 
 .ninokuni {
